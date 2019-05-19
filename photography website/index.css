@@ -1,0 +1,82 @@
+#wrapper{
+	width: 100%;
+	height: 100%;
+}
+.photographyFlexWrap img{
+height: 750px;
+width: 750px;
+padding: 25px;
+}
+.photographyFlexWrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: right;
+  justify-content: center;
+}
+.footer{
+  height: 60px;
+  background-color:  #151B1B;
+  color: white;
+  text-align: right;
+  width: 100%;
+}
+.copyright{
+  margin-right: 25px;
+  padding-top: 20px;
+  font-style: italic;
+}
+.formTextBox{
+  font-size: 17px;
+}
+.formText{
+  font-size: 20px;
+}
+#homeBackground{
+width: 100%;
+height: 100%;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: #151B1B;
+}
+li {
+  display: block;
+  color: white;
+  float: left;
+  padding: 20px 65px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif; 
+  font-size: 17px;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+li a{
+  text-decoration: none;
+  color: white;
+}
+#photographyCastle{
+  width: auto;
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+#contactHeader{
+  text-align: center;
+  font-family: 'Raleway', sans-serif; 
+  font-size: 55px;
+}
+#form{
+  margin-left: 50px;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#homeBackground{
+  background-image: url(Camera_IphoneX.jpg);
+}
+}
